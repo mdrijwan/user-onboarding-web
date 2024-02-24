@@ -18,7 +18,7 @@ type State = {
   error: string
 }
 
-const baseUrl = 'https://t5n7j723yd.execute-api.us-east-1.amazonaws.com'
+const baseUrl = process.env.REACT_APP_URL
 
 class ConfirmEmailContainer extends React.Component<
   RouteComponentProps,

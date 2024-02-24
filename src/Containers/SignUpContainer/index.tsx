@@ -40,7 +40,7 @@ type UserFormData = {
 
 const passwordValidator = require('password-validator')
 
-const baseUrl = 'https://t5n7j723yd.execute-api.us-east-1.amazonaws.com'
+const baseUrl = process.env.REACT_APP_URL
 
 // create a password schema
 const schema = new passwordValidator()

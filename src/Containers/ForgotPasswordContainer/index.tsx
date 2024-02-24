@@ -19,7 +19,7 @@ type State = {
   loading: boolean
 }
 
-const baseUrl = 'https://t5n7j723yd.execute-api.us-east-1.amazonaws.com'
+const baseUrl = process.env.REACT_APP_URL
 
 class ForgotPasswordContainer extends React.Component<Props, State> {
   state = {
