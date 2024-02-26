@@ -46,6 +46,6 @@ This app is integrated with the [user-onboarding-api](https://github.com/mdrijwa
 ### Try the App
 
 You can checkout the app here which is live!
-[User Onboarding Web App](https://main.d31eo61hbjz04i.amplifyapp.com).
+[User Onboarding Web App](https://onboard.mdrijwan.click).
 
 
